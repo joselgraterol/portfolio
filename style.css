@@ -888,43 +888,46 @@ footer .credit #jose{
    
 }
 
+@media (max-width: 425px){
+
+   .portfolio .portfolio-container .box-two {
+  background-size: 380px;
+}
+}
+
+@media (max-width: 396px){
+	.portfolio .portfolio-container .box-one{
+        background-size: 360px;
+        
+    }
+    
+    
+    
+    .portfolio .portfolio-container .box-two{
+        background-size: 360px;
+    }
+    
+    
+    
+    .portfolio .portfolio-container .box-three{
+       background-size: 360px;
+    }
+    
+   
+    
+    .portfolio .portfolio-container .box-four{
+        background-size: 360px;
+    }
+    
+    
+}
+
 @media (max-width: 379px){
 	.portfolio .portfolio-container{
 	grid-template-columns: repeat(auto-fit, minmax(32rem, auto));
 }
 
-   /* .portfolio .portfolio-container .box-one{
-        background-size: 200px;
-        
-    }
-    
-    .portfolio .portfolio-container .box-one:hover{
-        background-size: 250px;
-    }
-    
-    .portfolio .portfolio-container .box-two{
-        background-size: 200px;
-    }
-    
-    .portfolio .portfolio-container .box-two:hover{
-        background-size: 250px;
-    }
-    
-    .portfolio .portfolio-container .box-three{
-        background-size: 200px;
-    }
-    
-    .portfolio .portfolio-container .box-three:hover{
-        background-size: 250px;
-    }
-    
-    .portfolio .portfolio-container .box-four{
-        background-size: 200px;
-    }
-    
-    .portfolio .portfolio-container .box-four:hover{
-        background-size: 250px;
-    }*/
+   
     
 }
 
@@ -940,3 +943,4 @@ footer .credit #jose{
 }
 
 }
+
