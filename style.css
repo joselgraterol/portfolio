@@ -661,7 +661,7 @@ footer .box-container .box h3{
 
 footer .box-container .box img{
 	height: 15rem;
-    margin-left: -20px;
+    
 }
 
 
@@ -900,11 +900,18 @@ footer .credit #jose{
         background-size: 360px;
         
     }
+	.portfolio .portfolio-container .box-one:hover{
+        background-size: 400px;
+    }
     
     
     
     .portfolio .portfolio-container .box-two{
         background-size: 360px;
+    }
+
+	.portfolio .portfolio-container .box-two:hover{
+        background-size: 400px;
     }
     
     
@@ -912,11 +919,17 @@ footer .credit #jose{
     .portfolio .portfolio-container .box-three{
        background-size: 360px;
     }
-    
+
+	.portfolio .portfolio-container .box-three:hover{
+        background-size: 400px;
+    }
    
     
     .portfolio .portfolio-container .box-four{
         background-size: 360px;
+    }
+	.portfolio .portfolio-container .box-four:hover{
+        background-size: 400px;
     }
     
     
